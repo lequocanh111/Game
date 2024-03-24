@@ -1,2 +1,4 @@
-﻿  main.cpp
+﻿  Game.cpp
+C:\Users\Le Quoc Anh\source\repos\Shoot the ball\Shoot the ball\Game.cpp(14,3): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+C:\Users\Le Quoc Anh\source\repos\Shoot the ball\Shoot the ball\Game.cpp(13,3): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
   Shoot the ball.vcxproj -> C:\Users\Le Quoc Anh\source\repos\Shoot the ball\Debug\Shoot the ball.exe

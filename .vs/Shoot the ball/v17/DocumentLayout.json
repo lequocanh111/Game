@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Le Quoc Anh\\source\\repos\\Shoot the ball\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{745AF7A3-9A71-459D-89A2-FE87EA41FA89}|Shoot the ball\\Shoot the ball.vcxproj|C:\\Users\\Le Quoc Anh\\source\\repos\\Shoot the ball\\Shoot the ball\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{745AF7A3-9A71-459D-89A2-FE87EA41FA89}|Shoot the ball\\Shoot the ball.vcxproj|solutionrelative:Shoot the ball\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{745AF7A3-9A71-459D-89A2-FE87EA41FA89}|Shoot the ball\\Shoot the ball.vcxproj|C:\\Users\\Le Quoc Anh\\source\\repos\\Shoot the ball\\Shoot the ball\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{745AF7A3-9A71-459D-89A2-FE87EA41FA89}|Shoot the ball\\Shoot the ball.vcxproj|solutionrelative:Shoot the ball\\Game.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{745AF7A3-9A71-459D-89A2-FE87EA41FA89}|Shoot the ball\\Shoot the ball.vcxproj|C:\\Users\\Le Quoc Anh\\source\\repos\\Shoot the ball\\Shoot the ball\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{745AF7A3-9A71-459D-89A2-FE87EA41FA89}|Shoot the ball\\Shoot the ball.vcxproj|solutionrelative:Shoot the ball\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
@@ -19,12 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Game.cpp",
+              "DocumentMoniker": "C:\\Users\\Le Quoc Anh\\source\\repos\\Shoot the ball\\Shoot the ball\\Game.cpp",
+              "RelativeDocumentMoniker": "Shoot the ball\\Game.cpp",
+              "ToolTip": "C:\\Users\\Le Quoc Anh\\source\\repos\\Shoot the ball\\Shoot the ball\\Game.cpp",
+              "RelativeToolTip": "Shoot the ball\\Game.cpp",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAACEAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-24T08:33:03.747Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Game.h",
+              "DocumentMoniker": "C:\\Users\\Le Quoc Anh\\source\\repos\\Shoot the ball\\Shoot the ball\\Game.h",
+              "RelativeDocumentMoniker": "Shoot the ball\\Game.h",
+              "ToolTip": "C:\\Users\\Le Quoc Anh\\source\\repos\\Shoot the ball\\Shoot the ball\\Game.h",
+              "RelativeToolTip": "Shoot the ball\\Game.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-24T08:32:59.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\Le Quoc Anh\\source\\repos\\Shoot the ball\\Shoot the ball\\main.cpp",
               "RelativeDocumentMoniker": "Shoot the ball\\main.cpp",
               "ToolTip": "C:\\Users\\Le Quoc Anh\\source\\repos\\Shoot the ball\\Shoot the ball\\main.cpp",
               "RelativeToolTip": "Shoot the ball\\main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-20T06:53:28.805Z",
               "EditorCaption": ""
