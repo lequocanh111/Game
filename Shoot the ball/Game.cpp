@@ -34,6 +34,9 @@ Game::Game() {
 void Game::run() {
 	bool running = true;
 	SDL_Event event;
+
+	int playerColor[4] = { 255, 255, 255, 255 };
+	Player player(windowWidth / 2, windowHeight / 2, 10, playerColor);
 	
 	while (running) {
 		while (SDL_PollEvent(&event)) {
@@ -44,6 +47,8 @@ void Game::run() {
 
 		SDL_SetRenderDrawColor(renderer, 0, 0, 0, 0);
 		SDL_RenderClear(renderer);
+
+		player.draw(renderer);
 
 		SDL_RenderPresent(renderer);
 	}

@@ -2,6 +2,8 @@
 
 #include <SDL.h>
 
+#include "Player.h"
+
 class Game {
 public:
 	Game();
