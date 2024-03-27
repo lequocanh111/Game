@@ -1,5 +1,6 @@
 #include "Game.h"
 #include <iostream>
+#include <vector>
 
 Game::Game() {
 	if (SDL_Init(SDL_INIT_VIDEO) != 0) {
@@ -37,11 +38,27 @@ void Game::run() {
 
 	int playerColor[4] = { 255, 255, 255, 255 };
 	Player player(windowWidth / 2, windowHeight / 2, 10, playerColor);
-	
+
+	int projectileColor[4] = { 255, 255, 255, 255 };
+	std::vector<Projectile> projectiles;
+
 	while (running) {
 		while (SDL_PollEvent(&event)) {
 			if (event.type == SDL_QUIT) {
 				running = false;
+			}
+			if (event.type == SDL_MOUSEBUTTONDOWN) {
+				if (event.button.button == SDL_BUTTON_LEFT) {
+					int mouseX = event.button.x;
+					int mouseY = event.button.y;
+
+					double angleRadians = std::atan2(mouseY - windowHeight / 2, mouseX - windowWidth / 2);
+
+					double velocityX = std::cos(angleRadians) / 2;
+					double velocityY = std::sin(angleRadians) / 2;
+
+					projectiles.emplace_back(windowWidth / 2, windowHeight / 2, 5, projectileColor, velocityX, velocityY);
+				}
 			}
 		}
 
@@ -49,6 +66,11 @@ void Game::run() {
 		SDL_RenderClear(renderer);
 
 		player.draw(renderer);
+
+		for (Projectile& projectile : projectiles) {
+			projectile.draw(renderer);
+			projectile.update();
+		}
 
 		SDL_RenderPresent(renderer);
 	}

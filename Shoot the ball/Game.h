@@ -3,6 +3,7 @@
 #include <SDL.h>
 
 #include "Player.h"
+#include "Projectile.h"
 
 class Game {
 public:
